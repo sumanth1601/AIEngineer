@@ -1,0 +1,11 @@
+git init
+→ Creates a Git repository
+
+git status
+→ Shows current status
+
+git add .
+→ Adds all files to the staging area
+
+git commit -m "message"
+→ Saves a snapshot of the project
