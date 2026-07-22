@@ -1,0 +1,10 @@
+sname = input("Enter student name: ")
+cname = input("Enter College name: ")
+bname = input("Enter Branch Name: ")
+email = input("Enter Email Address: ")
+
+print("=========STUDENT DETAILS============")
+print(f"Student Name: {sname.title()}")
+print(f"College Name: {cname.upper()}")
+print(f"Branch Name: {bname.upper()}")
+print(f"Email Address: {email.lower()}")

@@ -1,0 +1,11 @@
+ename = input("Enter Employee name   : ")
+cname = input("Enter Company name    : ")
+email = input("Enter Email           : ")
+
+print("========== EMPLOYEE REPORT ===========")
+print(f"Employee Name        : {ename.title()}")
+print(f"Company              : {cname.upper()}")
+print(f"Email                : {email.lower()}")
+print(f"Name Length          : {len(ename)}")
+print(f"Ends with .com       : {email.endswith(".COM")}")
+print(f"Position of @        : {email.find('@')}")
